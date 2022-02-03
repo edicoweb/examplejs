@@ -16,4 +16,20 @@ var filtrarPorNombre = persona.map(function(persona){
 // *************Filtrar por Edad****************
 var filtrarPorEdad = persona.filter(function(persona){
     return persona.edad < 18;
-});    
+});
+
+// **************Para buscar persona/articulo *********************
+var buscarPersona = persona.find(function(persona){
+    return persona.nombre === "huber";
+});
+
+
+// ******************Para imprimir solo nombres*******************
+persona.forEach(function(persona){
+    console.log(persona.nombre);
+});
+
+// *********************TRUE O FALSE (retorna true si hay personas menores)*************************
+var personasMenores = persona.some(function(persona){
+    return persona.edad > 18;
+});
