@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(37, 60, 94);
+}
+header{
+    display: grid;
+    background-color: rgb(37, 60, 94);
+    width: 100%;
+    height: 50px;
+    place-items: center;
+}
+
+header p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 300px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    -webkit-box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    border-radius: 25px;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-bottom: 3px solid rgb(235, 229, 229);
+}
+
+form{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.inputDate-container{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin: 15px 0;
+    width: 200px;
+}
+
+input{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    /* border: 1px solid rgb(226, 226, 226); */
+    -webkit-box-shadow: 0px 0px 31px -10px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 31px -10px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 31px -10px rgba(0,0,0,0.24);
+    padding: 5px;
+}
+
+.button-container{
+    height: 100%;
+    margin-top: 10px;
+}
+.primary-button{
+    width: 150px;
+    height: 150px;
+    border-radius:75px;
+    border: none;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    color: rgb(37, 60, 94);
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.answer-container{
+    height: 100%;
+    margin-top: 10px;
+}
+
+.answer-container div{
+    display: grid;
+    width: 200px;
+    height: 135px;
+    border-radius: 8px;
+    /* border: 1px solid rgb(216, 215, 215); */
+    -webkit-box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 31px -22px rgba(0,0,0,0.53);
+    background-color: white;
+    margin-top: 10px;
+    padding: 8px;
+    align-items: center;
+}
+
+.answer-container div p span{
+    font-weight: bold;
+}

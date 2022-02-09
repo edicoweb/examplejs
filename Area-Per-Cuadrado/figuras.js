@@ -21,5 +21,5 @@ function calculateAreaSquare(){
    const valorIngresado = obtenerDato.value;
 
    const area = areaCuadrado(valorIngresado);
-   document.write(area);
+   alert(area);
 }

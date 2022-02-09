@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>edicoweb | operaciones</title>
+</head>
+<body>
+    <header>
+        <p>CALCULADORA</p>
+    </header>
+
+    <main>
+        <section class="container one-container">
+            <h3 class="title title-squeare">Calcular Area/Perimetro del Rectángulo</h3>
+            <form class="form-calculator" action="">
+                <div class="inputDate-container">
+                    <label for="inputBaseRectangulo">Ingrese Base</label>
+                    <input id="inputBaseRectangulo" type="number">
+    
+                    <label for="inputAlturaRectangulo">Ingrese Altura</label>
+                    <input id="inputAlturaRectangulo" type="number">
+                </div>
+
+                <div class="button-container">
+                    <button type="button" onclick="calcularRectangulo()" class="primary-button btn-perimeter__square">CALCULAR</button>
+                </div>
+
+                <div class="answer-container">
+                    <p>Resultado</p>
+                    <div>
+                        <p>Perímetro :: <span id="per-resultado"></span> </p>
+                        <p>Área :: <span id="area-resultado"></span> </p>    
+                    </div>
+                </div>
+            
+            </form>
+        </section>
+        <!-- <section class="container two-container"></section>
+        <section class="container three-container"></section> -->
+    </main>
+    <footer></footer>
+    <script src="./figura.js"></script>
+</body>
+</html>
