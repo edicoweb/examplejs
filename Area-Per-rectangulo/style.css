@@ -118,7 +118,7 @@ input{
 
 .answer-container div{
     display: grid;
-    width: 200px;
+    width: 230px;
     height: 135px;
     border-radius: 8px;
     /* border: 1px solid rgb(216, 215, 215); */
