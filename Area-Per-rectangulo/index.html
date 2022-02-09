@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        <p>CALCULADORA</p>
+        <p>FIGURAS GEOMETRICAS</p>
     </header>
 
     <main>
         <section class="container one-container">
-            <h3 class="title title-squeare">Calcular Area/Perimetro del Rectángulo</h3>
+            <h3 class="title title-squeare">Calcular Area/Perimetro de un Rectángulo</h3>
             <form class="form-calculator" action="">
                 <div class="inputDate-container">
                     <label for="inputBaseRectangulo">Ingrese Base</label>
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="button-container">
-                    <button type="button" onclick="calcularRectangulo()" class="primary-button btn-perimeter__square">CALCULAR</button>
+                    <button type="button" onclick="calcularRectangulo()" class="primary-button btn-rectangulo">CALCULAR</button>
                 </div>
 
                 <div class="answer-container">
@@ -38,8 +38,31 @@
             
             </form>
         </section>
-        <!-- <section class="container two-container"></section>
-        <section class="container three-container"></section> -->
+
+
+        <section class="container one-container">
+            <h3 class="title title-squeare">Calcular Area/Perimetro de un Circulo</h3>
+            <form class="form-calculator" action="">
+
+                <div class="inputDate-container">
+                    <label for="inputRadioCirculo">Ingrese Radio</label>
+                    <input id="inputRadioCirculo" type="number">
+                </div>
+
+                <div class="button-container">
+                    <button type="button" onclick="calcularCirculo()" class="primary-button btn-circulo">CALCULAR</button>
+                </div>
+
+                <div class="answer-container">
+                    <p>Resultado</p>
+                    <div>
+                        <p>Perímetro :: <span id="per-resultado-C"></span> </p>
+                        <p>Área :: <span id="area-resultadoC"></span> </p>    
+                    </div>
+                </div>
+            
+            </form>
+        </section>
     </main>
     <footer></footer>
     <script src="./figura.js"></script>
