@@ -8,7 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <form action="">
+            <p class="title-form">ECOMMERCE</p>
+
+
+            <p class="ouputAnswer"><span id="ouputPrecio"></span></p> 
+
+            <label for="inputPrecio">Precio Inicial</label>
+            <input type="number" name="Precio" id="inputPrecio">
+
+            <label for="inputDescuento">Descuento (%)</label>
+            <input type="number" name="Descuento" id="inputDescuento">
+
+            <button type="button" onclick="calcularPrecioFinalConDescuento()">CALCULAR</button>
+
+        </form>
+    </main>  
     <script src="./desc.js"></script>
 </body>
 </html>
