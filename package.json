@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/edicoweb/examplejs/issues"
   },
-  "homepage": "https://github.com/edicoweb/examplejs#readme"
+  "homepage": "https://github.com/edicoweb/examplejs#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
